@@ -86,7 +86,7 @@ def new_game():
 
 fenetre =Tk()
 fenetre.title("Morpions")
-players=["*","µ"]
+players=["x","o"]
 player = random.choice(players)
 boutons = [[0,0,0],
            [0,0,0],
